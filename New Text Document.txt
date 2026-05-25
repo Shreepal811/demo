@@ -1,0 +1,82 @@
+1. website does not adding task -> uncomment core and made one change
+2. Frontend localhost problem -> can be used elastic ip to give permanent public ip to ec2 -> remove localhost and replace it with ec2 public ip in tutorial.service.ts
+3. Jenkins port conflict with frontend port 
+4. Jenkins infinite build loop -> scm skip plugin and in commit message us [ci skip]
+
+
+
+
+
+
+
+🚀 Thrilled to share my latest DevOps project — End-to-End MEAN Stack Production Deployment!
+
+This is a project I built completely from scratch to strengthen my DevOps skills 
+and understand how real-world production deployments work! 💪
+
+🛠️ tools and technologies used in this project:
+
+📦 Application Stack:
+→ Angular        — Frontend Framework
+→ Node.js        — Backend Runtime
+→ Express.js     — Backend Framework  
+→ MongoDB        — NoSQL Database
+
+🐳 Containerization:
+→ Docker         — Containerized all services
+→ Docker Hub     — Container Registry
+
+☸️ Orchestration:
+→ Kubernetes     — Container Orchestration
+→ Minikube       — Local K8s Cluster on AWS EC2
+
+🔄 CI/CD:
+→ Jenkins        — Continuous Integration (Multibranch Pipeline)
+→ ArgoCD         — Continuous Deployment (GitOps)
+
+🔍 Code Quality:
+→ SonarQube      — Static Code Analysis
+→ Quality Gates  — Code Quality Enforcement
+
+📊 Monitoring:
+→ Prometheus     — Metrics Collection
+→ Grafana        — Monitoring Dashboards
+
+☁️ Cloud & Infrastructure:
+→ AWS EC2        — Cloud Infrastructure
+→ Terraform      — Infrastructure as Code
+
+🔗 GitHub: https://github.com/Shreepal811/Project-MEAN-Stack-Deployment
+
+🔁 How it all works together:
+
+I push code to GitHub
+        ↓
+Jenkins automatically triggers (via Webhook)
+        ↓
+Runs Tests → SonarQube Analysis → Quality Gate
+        ↓
+Builds Docker Images → Pushes to Docker Hub
+        ↓
+Updates K8s Manifests in release-state branch
+        ↓
+ArgoCD detects changes → Deploys to Kubernetes
+        ↓
+Prometheus collects metrics → Grafana visualizes
+        ↓
+Application is LIVE! 🎉
+
+
+📚 What I learned from this project:
+→ How CI and CD work together in production
+→ GitOps methodology using ArgoCD
+→ Kubernetes deployment and service management
+→ Infrastructure as Code using Terraform
+→ Code quality enforcement using SonarQube
+→ Real world debugging and problem solving
+
+
+#DevOps #MyProject #CICD #Jenkins #Kubernetes #Docker 
+#ArgoCD #Terraform #AWS #SonarQube #Grafana #Prometheus 
+#MEAN #Angular #NodeJS #MongoDB #GitOps #CloudComputing
+#DevOpsEngineer #LearningDevOps #OpenSource
